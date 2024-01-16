@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.22)  16 JAN 2024 20:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.22)  16 JAN 2024 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -673,24 +673,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (project_kravec.aux)
 \openout1 = `project_kravec.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -720,43 +720,43 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 50.
  (project_kravec.out) (project_kravec.out)
 \@outlinefile=\write4
 \openout4 = `project_kravec.out'.
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-5.
+7.
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 65.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 67.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 65.
+(Font)              size <5> substituted on input line 67.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 65.
+(Font)              size <5> substituted on input line 67.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 65.
+(Font)              size <5> substituted on input line 67.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 65
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 67
 .
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
@@ -764,143 +764,152 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 65.
+(Font)              size <5> substituted on input line 67.
 
 
-Overfull \hbox (6.44995pt too wide) in paragraph at lines 65--67
+Overfull \hbox (6.44995pt too wide) in paragraph at lines 67--69
 \T1/cmtt/m/n/10.95 datasets / sujaykapadnis / whether-[]prediction-[]dataset ? 
 select = weather _ prediction _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
 
-Overfull \hbox (2.05714pt too wide) in paragraph at lines 99--99
+Overfull \hbox (2.05714pt too wide) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 cloud
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \T1/cmr/m/n/10.95 co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 wind
  []
 
 
-Overfull \hbox (0.8993pt too wide) in paragraph at lines 99--99
+Overfull \hbox (0.8993pt too wide) in paragraph at lines 101--101
 \T1/cmr/m/n/10.95 speed| 
  []
 
 
-Overfull \hbox (1.75404pt too wide) in paragraph at lines 99--99
+Overfull \hbox (1.75404pt too wide) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 wind
  []
 
 
-Overfull \hbox (4.43353pt too wide) in paragraph at lines 99--99
+Overfull \hbox (4.43353pt too wide) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 humidity| 
  []
 
 
-Overfull \hbox (4.86903pt too wide) in paragraph at lines 99--99
+Overfull \hbox (4.86903pt too wide) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 pressure| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 global
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \T1/cmr/m/n/10.95 ra-dia-
  []
 
 
-Overfull \hbox (5.29704pt too wide) in paragraph at lines 99--99
+Overfull \hbox (5.29704pt too wide) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 precipitation| 
  []
 
 
-Overfull \hbox (4.55737pt too wide) in paragraph at lines 99--99
+Overfull \hbox (4.55737pt too wide) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 sunshine| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 temp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 temp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 temp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 picnic
  []
 
 
-Overfull \hbox (4.09259pt too wide) in paragraph at lines 99--99
+Overfull \hbox (4.09259pt too wide) in paragraph at lines 101--101
 []\T1/cmr/m/n/10.95 Montelimar| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
 [1
 
 {C:/Users/majko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
 
 
-Overfull \hbox (58.39565pt too wide) in paragraph at lines 120--121
+Overfull \hbox (58.39565pt too wide) in paragraph at lines 122--123
 []\T1/cmr/m/n/10.95 Linear SVC with SGD (sto-chas-tic gra-dient des-cend) trai-
 ning (sk-le-arn.linear_model.SGDClassifier
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
-[3] (project_kravec.aux)
+<C:/Users/majko/Desktop/weather_prediction/images/loss_basic.png, id=50, 401.82
+12pt x 302.0886pt>
+File: C:/Users/majko/Desktop/weather_prediction/images/loss_basic.png Graphic f
+ile (type png)
+<use C:/Users/majko/Desktop/weather_prediction/images/loss_basic.png>
+Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/loss_
+basic.png  used on input line 168.
+(pdftex.def)             Requested size: 254.75433pt x 191.52449pt.
+[3 <C:/Users/majko/Desktop/weather_prediction/images/loss_basic.png>]
+(project_kravec.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -909,10 +918,10 @@ Package rerunfilecheck Info: File `project_kravec.out' has not changed.
 (rerunfilecheck)             Checksum: 2E9DFA197080B9AFCC933430146049F1;755.
  ) 
 Here is how much of TeX's memory you used:
- 22754 strings out of 476404
- 428897 string characters out of 2789524
+ 22765 strings out of 476404
+ 429394 string characters out of 2789524
  1972324 words of memory out of 3000000
- 42729 multiletter control sequences out of 15000+600000
+ 42736 multiletter control sequences out of 15000+600000
  520174 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,80p,454b,619s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -928,9 +937,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1095.pfb><C:/Users/ma
 jko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/
 Users/majko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.
 pfb>
-Output written on project_kravec.pdf (3 pages, 143047 bytes).
+Output written on project_kravec.pdf (3 pages, 172261 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,8 @@
 \let\origfontsize\fontsize
 \def\fontsize#1#2{\origfontsize{11}{14.5}}
 
+\xdef\mypath{C:/Users/majko/Desktop/weather_prediction/images}
+
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 
@@ -162,4 +164,16 @@
 	\\
 	
 	We tried multiple neural networks with different number of layers and different number of neurons in each layer and finally we ended sequential neural network with four dense layers. First three of these use hyperbolic tangent as activation function and have 24, 8 and 12 neurons respectively. Last layer use softmax as activation function and contain 2 neurons representing true and false values of our labels.    
+	
+	\centerline{\includegraphics[width=0.6\textwidth]{\mypath/loss_basic.png}}
+	
+	\begin{table}[!h]
+		\begin{tabular}{|l|l|}
+			\hline
+			model &  validation score  \\ \hline
+			Pre-trained on different cities  & 0.98356 \\ \hline
+			Standard Neural Network & 0.97260 \\ \hline
+			Trasfer learning using pre-trained &  0.99178 \\ \hline
+		\end{tabular}
+	\end{table} 
 \end{document}
