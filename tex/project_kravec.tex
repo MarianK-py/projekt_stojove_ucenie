@@ -1,6 +1,6 @@
 % !TeX spellcheck = en_EN-English
 \documentclass[a4paper]{article}
-\usepackage[slovak]{babel}
+\usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{a4wide}
@@ -164,13 +164,32 @@
 	\\
 	
 	We tried multiple neural networks with different number of layers and different number of neurons in each layer and finally we ended sequential neural network with four dense layers. First three of these use hyperbolic tangent as activation function and have 24, 8 and 12 neurons respectively. Last layer use softmax as activation function and contain 2 neurons representing true and false values of our labels.    
+	\\
 	
-	\centerline{\includegraphics[width=0.6\textwidth]{\mypath/loss_basic.png}}
+	Now we can take look at accuracy of our three models (we consider model we pre-trained to use for transfer learning as third model). In this case test accuracy is computed during training by Keras library itself using 10\% of provided data which means that test accuracy of model used as pre-trained model is not accuracy on Masstrich data but accuracy on provided data from four other cities.
+	
+	
+	\begin{figure}[h!]
+		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/accuracy_pretrain.png}}
+		\caption{Accuracy of model used for transfer learning during training}
+	\end{figure}
+
+	\begin{figure}[h!]
+		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/accuracy_basic.png}}
+		\caption{Accuracy of model trained using only Masstrich data}
+	\end{figure}
+
+	\begin{figure}[h!]
+		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/accuracy_transfer.png}}
+		\caption{Accuracy of model trained using Masstrich data and pre-trained model}
+	\end{figure}
+
+	
 	
 	\begin{table}[!h]
 		\begin{tabular}{|l|l|}
 			\hline
-			model &  validation score  \\ \hline
+			model &  validation accuracy  \\ \hline
 			Pre-trained on different cities  & 0.98356 \\ \hline
 			Standard Neural Network & 0.97260 \\ \hline
 			Trasfer learning using pre-trained &  0.99178 \\ \hline
