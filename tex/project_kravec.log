@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.22)  17 JAN 2024 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.22)  19 JAN 2024 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,38 +727,61 @@ Package hyperref Info: Link coloring OFF on input line 50.
 \@outlinefile=\write4
 \openout4 = `project_kravec.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+[1
+
+{C:/Users/majko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
+5.
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 85.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 67.
+(Font)              size <5> substituted on input line 85.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 67.
+(Font)              size <5> substituted on input line 85.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 67.
+(Font)              size <5> substituted on input line 85.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
 
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 67
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 85
 .
 
 (C:\Users\majko\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
@@ -766,199 +789,325 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 67.
+(Font)              size <5> substituted on input line 85.
 
 
-Overfull \hbox (6.44995pt too wide) in paragraph at lines 67--69
+Overfull \hbox (6.44995pt too wide) in paragraph at lines 85--87
 \T1/cmtt/m/n/10.95 datasets / sujaykapadnis / whether-[]prediction-[]dataset ? 
 select = weather _ prediction _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
-
-Overfull \hbox (2.05714pt too wide) in paragraph at lines 101--101
+Overfull \hbox (2.05714pt too wide) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 cloud
  []
 
 
-Overfull \hbox (1.15045pt too wide) in paragraph at lines 101--101
+Overfull \hbox (1.15045pt too wide) in paragraph at lines 118--118
 \T1/cmr/m/n/10.95 cover| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 wind
  []
 
 
-Overfull \hbox (0.8993pt too wide) in paragraph at lines 101--101
+Overfull \hbox (0.8993pt too wide) in paragraph at lines 118--118
 \T1/cmr/m/n/10.95 speed| 
  []
 
 
-Overfull \hbox (1.75404pt too wide) in paragraph at lines 101--101
+Overfull \hbox (1.75404pt too wide) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 wind
  []
 
 
-Overfull \hbox (4.43353pt too wide) in paragraph at lines 101--101
+Overfull \hbox (4.43353pt too wide) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 humidity| 
  []
 
 
-Overfull \hbox (4.86903pt too wide) in paragraph at lines 101--101
+Overfull \hbox (4.86903pt too wide) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 pressure| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 global
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \T1/cmr/m/n/10.95 ra-di-a-
  []
 
 
-Overfull \hbox (5.29704pt too wide) in paragraph at lines 101--101
+Overfull \hbox (5.29704pt too wide) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 precipitation| 
  []
 
 
-Overfull \hbox (4.55737pt too wide) in paragraph at lines 101--101
+Overfull \hbox (4.55737pt too wide) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 sunshine| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 temp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 temp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 temp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 picnic
  []
 
 
-Overfull \hbox (4.09259pt too wide) in paragraph at lines 101--101
+Overfull \hbox (4.09259pt too wide) in paragraph at lines 118--118
 []\T1/cmr/m/n/10.95 Montelimar| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-
- []
-
-[1
-
-{C:/Users/majko/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 
-Overfull \hbox (58.39565pt too wide) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+
+Overfull \hbox (58.39565pt too wide) in paragraph at lines 144--145
 []\T1/cmr/m/n/10.95 Linear SVC with SGD (stochas-tic gra-di-ent de-scend) train
 -ing (sklearn.linear_model.SGDClassifier
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
-<C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png, id=50,
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+
+ []
+
+
+Overfull \hbox (22.2024pt too wide) in paragraph at lines 186--193
+[][] 
+ []
+
+
+Overfull \hbox (22.2024pt too wide) in paragraph at lines 197--204
+[][] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+<C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png, id=68,
  401.8212pt x 302.0886pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png Gr
 aphic file (type png)
 <use C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png>
 Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/accur
-acy_pretrain.png  used on input line 173.
+acy_pretrain.png  used on input line 225.
 (pdftex.def)             Requested size: 360.9009pt x 271.32867pt.
-<C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png, id=52, 40
+<C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png, id=70, 40
 1.8212pt x 302.0886pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png Graph
 ic file (type png)
 <use C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png>
 Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/accur
-acy_basic.png  used on input line 178.
+acy_basic.png  used on input line 230.
 (pdftex.def)             Requested size: 360.9009pt x 271.32867pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<C:/Users/majko/Desktop/weather_prediction/images/accuracy_transfer.png, id=53,
+<C:/Users/majko/Desktop/weather_prediction/images/accuracy_transfer.png, id=71,
  401.8212pt x 302.0886pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/accuracy_transfer.png Gr
 aphic file (type png)
 <use C:/Users/majko/Desktop/weather_prediction/images/accuracy_transfer.png>
 Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/accur
-acy_transfer.png  used on input line 183.
+acy_transfer.png  used on input line 235.
 (pdftex.def)             Requested size: 360.9009pt x 271.32867pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+
+ []
+
+[5 <C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png>]
+[6 <C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png> <C:/Us
+ers/majko/Desktop/weather_prediction/images/accuracy_transfer.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 258--260
+
+ []
+
+
+Overfull \hbox (7.8417pt too wide) in paragraph at lines 265--266
+[]\T1/cmr/m/n/10.95 Agglomerative Clus-ter-ing (sklearn.cluster.AgglomerativeCl
+ustering) - hi-er-ar-chi-cal clus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
+
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png>]
-[4 <C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png> <C:/Us
-ers/majko/Desktop/weather_prediction/images/accuracy_transfer.png>] [5]
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 326--328
+
+ []
+
+<C:/Users/majko/Desktop/weather_prediction/images/budapest_label.png, id=98, 39
+4.5942pt x 298.4751pt>
+File: C:/Users/majko/Desktop/weather_prediction/images/budapest_label.png Graph
+ic file (type png)
+<use C:/Users/majko/Desktop/weather_prediction/images/budapest_label.png>
+Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/budap
+est_label.png  used on input line 332.
+(pdftex.def)             Requested size: 360.9009pt x 273.0064pt.
+<C:/Users/majko/Desktop/weather_prediction/images/budapest_gauss.png, id=99, 39
+4.5942pt x 298.4751pt>
+File: C:/Users/majko/Desktop/weather_prediction/images/budapest_gauss.png Graph
+ic file (type png)
+<use C:/Users/majko/Desktop/weather_prediction/images/budapest_gauss.png>
+Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/budap
+est_gauss.png  used on input line 337.
+(pdftex.def)             Requested size: 360.9009pt x 273.0064pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
+
+ []
+
+<C:/Users/majko/Desktop/weather_prediction/images/perpignan_label.png, id=100, 
+394.5942pt x 298.4751pt>
+File: C:/Users/majko/Desktop/weather_prediction/images/perpignan_label.png Grap
+hic file (type png)
+<use C:/Users/majko/Desktop/weather_prediction/images/perpignan_label.png>
+Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/perpi
+gnan_label.png  used on input line 347.
+(pdftex.def)             Requested size: 360.9009pt x 273.0064pt.
+[9 <C:/Users/majko/Desktop/weather_prediction/images/budapest_label.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<C:/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png, id=10
+8, 394.5942pt x 298.4751pt>
+File: C:/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png G
+raphic file (type png)
+<use C:/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png>
+Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/perpi
+gnan_spectral.png  used on input line 352.
+(pdftex.def)             Requested size: 360.9009pt x 273.0064pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <C:/Users/majko/Desktop/weather_prediction/images/budapest_gauss.png>]
+
+LaTeX Warning: Text page 11 contains only floats.
+
+[11 <C:/Users/majko/Desktop/weather_prediction/images/perpignan_label.png> <C:/
+Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png>]
 (project_kravec.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 Package rerunfilecheck Info: File `project_kravec.out' has not changed.
-(rerunfilecheck)             Checksum: 2E9DFA197080B9AFCC933430146049F1;755.
+(rerunfilecheck)             Checksum: C865818E9EF71749AA21514A17B1CE06;1080.
  ) 
 Here is how much of TeX's memory you used:
- 22609 strings out of 476404
- 428322 string characters out of 2789524
- 1972324 words of memory out of 3000000
- 42573 multiletter control sequences out of 15000+600000
+ 22656 strings out of 476404
+ 430385 string characters out of 2789524
+ 1943324 words of memory out of 3000000
+ 42599 multiletter control sequences out of 15000+600000
  520174 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,80p,454b,619s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,12n,80p,675b,619s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/majko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
 er-ts1.enc}{C:/Users/majko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-sup
 er/cm-super-t1.enc}<C:/Users/majko/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -971,9 +1120,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1095.pfb><C:/Users/ma
 jko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/
 Users/majko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.
 pfb>
-Output written on project_kravec.pdf (5 pages, 223855 bytes).
+Output written on project_kravec.pdf (11 pages, 309822 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
