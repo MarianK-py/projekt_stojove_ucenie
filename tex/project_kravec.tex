@@ -76,6 +76,9 @@
 	\\
 	
 	The concluding part centers around unsupervised learning. In this stage, we will experiment with various clustering algorithms to discern if any of them exhibit a similar data partitioning as the labeled picnic weather categories.
+	\\
+	
+	The code utilized for generating the results in this project is accessible in the GitHub repository, which can be found at the following link: \url{https://github.com/MarianK-py/projekt_stojove_ucenie}.
 	
 	\newpage
 
@@ -209,34 +212,37 @@
 
 	\section{Basic neural network versus transfer learning}
 	
-	We have 5 cities for which we have all 12 columns, those cities are: De Bilt, Maastrich, Muenchen, Dusseldorf, Oslo. What we will try to do is train standard sequential neural network to classify whether weather in Maastrich is good for picnic. 
+	We possess complete datasets for five cities—De Bilt, Maastricht, Munich, Dusseldorf, and Oslo—each comprising all 12 columns. Our objective is to employ a standard sequential neural network to categorize whether the weather conditions in Maastricht are suitable for a picnic.
 	\\
 	
-	We will compare two neural network. First NN will be trained solely using data from Masstrich. Second will be firstly trained on data from four other cities then all layers except last one will be frozen and last layer would be retrained using Masstrich data. We will then compare those two networks.  
+	We will conduct a comparison between two neural networks. The first neural network will be exclusively trained using data from Maastricht. The second neural network, on the other hand, will undergo initial training using data from four other cities. Subsequently, all layers except the final one will be frozen, and the last layer will be retrained using Maastricht's data. The subsequent evaluation will involve a comparison between these two networks.
 	\\
 	
-	We tried multiple neural networks with different number of layers and different number of neurons in each layer and finally we ended sequential neural network with four dense layers. First three of these use hyperbolic tangent as activation function and have 24, 8 and 12 neurons respectively. Last layer use softmax as activation function and contain 2 neurons representing true and false values of our labels.    
+	We experimented with various neural network architectures, exploring different layer configurations and neuron counts. Ultimately, we settled on a sequential neural network with four dense layers. The first three layers employ the hyperbolic tangent activation function, with 24, 8, and 12 neurons, respectively. The final layer utilizes the softmax activation function and consists of two neurons, representing the true and false values of our labels.    
 	\\
 	
-	Now we can take look at accuracy of our three models (we consider model we pre-trained to use for transfer learning as third model). In this case test accuracy is computed during training by Keras library itself using 10\% of provided data which means that test accuracy of model used as pre-trained model is not accuracy on Masstrich data but accuracy on provided data from four other cities.
+	Now, let's examine the accuracy of our three models, with the model used as pre-trained model considered as the third one. It's essential to note that, in this instance, test accuracy is calculated during training by the Keras library itself. This evaluation utilizes 10\% of the provided data. It's crucial to clarify that the test accuracy of the pre-trained model is not based on Maastricht data but rather on the data from the four other cities provided in the training set.
 	
 	
 	\begin{figure}[h!]
-		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/accuracy_pretrain.png}}
+		\centerline{\includegraphics[width=0.785\textwidth]{\mypath/accuracy_pretrain.png}}
 		\caption{Accuracy of model used for transfer learning during training}
 	\end{figure}
 
 	\begin{figure}[h!]
-		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/accuracy_basic.png}}
+		\centerline{\includegraphics[width=0.785\textwidth]{\mypath/accuracy_basic.png}}
 		\caption{Accuracy of model trained using only Masstrich data}
 	\end{figure}
 
 	\begin{figure}[h!]
-		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/accuracy_transfer.png}}
+		\centerline{\includegraphics[width=0.785\textwidth]{\mypath/accuracy_transfer.png}}
 		\caption{Accuracy of model trained using Masstrich data and pre-trained model}
 	\end{figure}
-
-	When we look at plots of accuracy of our models we can that both model that we later used as pre-trained model and model using only Maastrich steadily increased accuracy during whole training, however accuracy of model used as pre-trained is generally higher most likely thanks to bigger training dataset (approximately 4 times bigger). When we look at plot for model that is training just last layer using Maastrich data and using other layers from pre-trained model we can see that accuracy is high during whole training and improvement seems to be negligible.   
+	\newpage
+	Examining the accuracy plots of our models, we observe that both the model later employed as the pre-trained model and the model trained exclusively on Maastricht data consistently increased accuracy throughout the entire training process. Notably, the accuracy of the pre-trained model is generally higher, likely attributable to its larger training dataset (approximately four times larger).
+	\\
+	
+	Upon reviewing the accuracy plot for the model training only the last layer using Maastricht data and leveraging other layers from the pre-trained model, it becomes apparent that the accuracy remains consistently high throughout the entire training duration, with improvements appearing to be marginal.   
 	\\
 	
 	If we compute validation accuracy using approximately 10\% of Maastrich data not used during training we get these values for our three models:
@@ -250,23 +256,24 @@
 		\end{tabular}
 	\end{table} 
 
-	We can see that model that was used as pre-trained model acquire slightly better result than standard model even though it has disadvantage that it never saw any data from Maastrich. Our model that used transfer learning from pre-trained model acquired highest accuracy which would imply that transfer learning really improved model. However because differences between accuracy of these model is very small it is not appropriate to draw any conclusion.
+	The model used as the pre-trained model demonstrates slightly better results than the standard model, despite the disadvantage of never having encountered any data from Maastricht. Notably, our model employing transfer learning from the pre-trained model achieved the highest accuracy, suggesting that transfer learning indeed enhanced the model. However, due to high overall accuracy and the minimal differences in accuracy between these models, it is not appropriate to draw definitive conclusions.
 	
+	\newpage
 	
 	\section{Unsupervised learning - clustering}
 	
-	We will use four different models with mostly default setting as we are consider it to be unsupervised learning so we don't use labels to improve model but just validate it.
+	We will utilize four distinct clustering models with predominantly default settings, treating the task as unsupervised learning. In this approach, we refrain from leveraging labels to enhance the model but rather employ them solely for validation purposes.
 	\\
 	
 	Here are model we will compare:
 	\begin{itemize}
-		\item K-Means Clustering (sklearn.cluster.KMeans) - standard Kmeans using Lloyd's algorithm, that is trying to minimize sum of distances between point and center of cluster point belong to
-		\item Spectral Clustering (sklearn.cluster.SpectralClustering) - that compute affinity matrix of points using RBF kernel, then compute Laplacian matrix from it and finally compute clusters using K-Means algorithm on Laplacian projection of points
-		\item Agglomerative Clustering (sklearn.cluster.AgglomerativeClustering) - hierarchical clustering algorithm that recursively merges pair of clusters of sample data minimizing the variance of the clusters being merged
-		\item Gaussian Mixture (sklearn.mixture.GaussianMixture) - this model is trying to represent each sample data as point generated by one of multiple Gaussian distribution, initial it split points using K-Means algorithm and then optimize their affiliation to Gaussian distributions using EM algorithm
+		\item K-Means Clustering (sklearn.cluster.KMeans) - standard K-means algorithm utilizing Lloyd's algorithm, which aims to minimize the sum of distances between each point and the center of the cluster to which it belongs
+		\item Spectral Clustering (sklearn.cluster.SpectralClustering) - it involves computing the affinity matrix of points using an RBF kernel, followed by the generation of the Laplacian matrix from this affinity matrix. Finally, clusters are determined by applying the K-Means algorithm on the Laplacian projection of the points
+		\item Agglomerative Clustering (sklearn.cluster.AgglomerativeClustering) - hierarchical clustering algorithm recursively merges pairs of clusters from sample data, aiming to minimize the variance within the clusters being combined using Euclidean distance 
+		\item Gaussian Mixture (sklearn.mixture.GaussianMixture) - this model endeavors to represent each sample data point as originating from one of multiple Gaussian distributions. Initially, it employs the K-Means algorithm to partition the points, and subsequently optimizes their affiliation to Gaussian distributions using the Expectation-Maximization (EM) algorithm
 	\end{itemize}
 
-	We will try this algorithm on data from three different cities Budapest, Perpignan and Dresden. Validation score is computed as percentage of correctly "labeled" validation data point (mapping between clusters and labels values is such that maximize validation score which means that minimal score is 0.5). We will also compare our models to base model which put all points into one cluster so assume that all data has same label (majority one). (we can also consider one more base model splitting points into clusters randomly but that model would always have minimal possible score 0.5 because of a away we map clusters to labels)
+	We will apply these algorithms to datasets from three distinct cities: Budapest, Perpignan, and Dresden. The validation score is computed as the percentage of correctly "labeled" validation data points, with a mapping between clusters and labels designed to maximize the validation score (therefore a minimal score is 0.5). Additionally, we will compare our models with a baseline model that places all points into one cluster, assuming a uniform label for the entire dataset (majority label). Another baseline model worth considering is one that randomly assigns points to clusters. However, this model consistently attains a minimum possible score of 0.5 due to the mapping of clusters to labels. Therefore, we have opted not to include it in our analysis.
 	\\
 	
 	Now let's look at results for each of our three cities:
@@ -285,7 +292,7 @@
 		\end{tabular}
 	\end{table} 
 
-	We can see that compared to base model all our models seems to have significantly higher score. Except Agglomerative Clustering all models has score around 0.9 which means 90\% accuracy. Based on this we can conclude that all our models split data into clusters similar to their labeling.
+	Upon comparison with the base model, it is evident that all other models exhibit significantly higher scores. With the exception of Agglomerative Clustering, all models achieve a score around 0.9, indicating an accuracy of 90\%. From this observation, we can infer that all our models effectively partition the data into clusters that align closely with their respective labeling.
 	\\
 	
 	Perpignan:
@@ -301,7 +308,7 @@
 		\end{tabular}
 	\end{table} 
 
-	Here we see that base model has score barely over 0.5 which implies that our validation dataset contains approximately same number of each label. When we take a look at scores of our model we can see that three models significantly outperformed base model, while Spectral Clustering got score close to minimal possible, so their is most likely no relationship between this split and labels.
+	In this comparison, the base model barely surpasses a score of 0.5, suggesting an approximately equal distribution of each label within our validation dataset. Evaluating the scores of clustering models reveals that three models markedly outperformed the base model. However, Spectral Clustering achieved a score close to the minimal possible, indicating that there is likely no discernible relationship between this clustering approach and the assigned labels.
 	\\
 
 	Dresden:
@@ -317,42 +324,41 @@
 		\end{tabular}
 	\end{table} 
 	
-	Here we can see that base model has score around 0.77 which means that validation data for this city is quite skewed towards one label value. Here we can see that all our models acquired score close to base model score so we can't conclude any model do be significantly better then base model.
+	In this analysis, the base model exhibits a score of around 0.77, indicating a notable skewness towards one label value in the validation data for this city. Interestingly, all our models achieved scores close to that of the base model. Consequently, we cannot assert the superiority of any model over the base model in this specific scenario.
 	\\
 	
-	In general it seems that for data such as our best model to determine whether weather is good for picnic without need to label data is Gaussian Mixture model which for all three cities ended as either best or second to best model. However if data is highly skewed towards one label even this model might not be useful.
+	In general, it appears that the most effective model for discerning whether weather is suitable for a picnic without explicitly labeled data is the Gaussian Mixture Model. Across all three cities, it consistently emerged as either the best or the second-best model. However, it's essential to note that in cases where the data is highly skewed towards one label, even this model may not be as informative or effective.
 	\\
 	
-	Now we will visualize our best and our worst result. To do it we reduce our data into two dimensional data using PCA algorithm and then visualize out data using scatter plot with labels (clusters) as colors of points.
-	\\
-	
+	Now, we aim to visualize our best and worst results. To achieve this, we'll employ the PCA algorithm to reduce our data to two dimensions and then visualize it using a scatter plot. The points in the plot will be colored according to their labels (clusters).
+	\newpage
 	So our best model was Gaussian Mixture model for Budapest data:
 	
 	\begin{figure}[h!]
-		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/budapest_label.png}}
+		\centerline{\includegraphics[width=0.7\textwidth]{\mypath/budapest_label.png}}
 		\caption{Real split into weather suitable and not suitable for picnic in Budapest}
 	\end{figure}
 	
 	\begin{figure}[h!]
-		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/budapest_gauss.png}}
+		\centerline{\includegraphics[width=0.7\textwidth]{\mypath/budapest_gauss.png}}
 		\caption{Split into weather suitable and not suitable for picnic in Budapest using Gaussian Mixture model}
 	\end{figure}
 
-	We can clearly see resemblance between those two splits, we can also see that even though we reduced dimension using PCA we can still clearly see border between clusters in Gaussian Mixture model, but border between real labels is much more vague.
+	he visual comparison reveals a distinct resemblance between these two splits. Notably, even after dimension reduction using PCA, the Gaussian Mixture model still distinctly delineates the borders between clusters. In contrast, the boundaries between the actual labels appear more ambiguous in the visualization, providing insight into why the model may not achieve 100\% accuracy.
 	\\
-	
+	\newpage
 	Our worst performing model was Spectral Clustering for Perpignan data that has score similar to either one cluster or random model.
 	
 	\begin{figure}[h!]
-		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/perpignan_label.png}}
+		\centerline{\includegraphics[width=0.70\textwidth]{\mypath/perpignan_label.png}}
 		\caption{Real split into weather suitable and not suitable for picnic in Perpignan}
 	\end{figure}
 	
 	\begin{figure}[h!]
-		\centerline{\includegraphics[width=0.85\textwidth]{\mypath/perpignan_spectral.png}}
+		\centerline{\includegraphics[width=0.70\textwidth]{\mypath/perpignan_spectral.png}}
 		\caption{Split into weather suitable and not suitable for picnic in Perpignan using Spectral Clustering model}
 	\end{figure}
 	
-	Here we clearly see why Spectral Clustering model is so close base model with one cluster as it formed one big cluster containing more than 98\% of data points. If we take a look at real labeling we see vague border between label groups but as we saw based on results from other models approximation of this border is to some extend achievable without knowledge of labels.
+	In this observation, the reason for the close proximity of the Spectral Clustering model to the base model with a single cluster becomes apparent—it forms one large cluster encompassing more than 98\% of the data points. Examining the actual labeling, we discern a vague border between the label groups. However, as indicated by the results from other models, there is a degree of success in approximating this border even without knowledge of the labels.
 	
 \end{document}
