@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.22)  20 JAN 2024 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.22)  20 JAN 2024 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,7 +956,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
-<C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png, id=70,
+<C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png, id=74,
  401.8212pt x 286.1892pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png Gr
 aphic file (type png)
@@ -964,7 +964,7 @@ aphic file (type png)
 Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/accur
 acy_pretrain.png  used on input line 228.
 (pdftex.def)             Requested size: 333.30174pt x 237.38847pt.
-<C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png, id=72, 40
+<C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png, id=76, 40
 1.8212pt x 302.0886pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/accuracy_basic.png Graph
 ic file (type png)
@@ -973,7 +973,7 @@ Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/accur
 acy_basic.png  used on input line 233.
 (pdftex.def)             Requested size: 333.30174pt x 250.57674pt.
 [5 <C:/Users/majko/Desktop/weather_prediction/images/accuracy_pretrain.png>]
-<C:/Users/majko/Desktop/weather_prediction/images/accuracy_transfer.png, id=79,
+<C:/Users/majko/Desktop/weather_prediction/images/accuracy_transfer.png, id=83,
  401.8212pt x 302.0886pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/accuracy_transfer.png Gr
 aphic file (type png)
@@ -1035,7 +1035,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--332
  []
 
 [9]
-<C:/Users/majko/Desktop/weather_prediction/images/budapest_label.png, id=105, 3
+<C:/Users/majko/Desktop/weather_prediction/images/budapest_label.png, id=109, 3
 94.5942pt x 283.2984pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/budapest_label.png Graph
 ic file (type png)
@@ -1043,7 +1043,7 @@ ic file (type png)
 Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/budap
 est_label.png  used on input line 338.
 (pdftex.def)             Requested size: 297.20906pt x 213.39401pt.
-<C:/Users/majko/Desktop/weather_prediction/images/budapest_gauss.png, id=106, 3
+<C:/Users/majko/Desktop/weather_prediction/images/budapest_gauss.png, id=110, 3
 94.5942pt x 283.2984pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/budapest_gauss.png Graph
 ic file (type png)
@@ -1058,7 +1058,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--349
 
 [10 <C:/Users/majko/Desktop/weather_prediction/images/budapest_label.png> <C:/U
 sers/majko/Desktop/weather_prediction/images/budapest_gauss.png>]
-<C:/Users/majko/Desktop/weather_prediction/images/perpignan_label.png, id=115, 
+<C:/Users/majko/Desktop/weather_prediction/images/perpignan_label.png, id=119, 
 394.5942pt x 285.4665pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/perpignan_label.png Grap
 hic file (type png)
@@ -1066,8 +1066,8 @@ hic file (type png)
 Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/perpi
 gnan_label.png  used on input line 353.
 (pdftex.def)             Requested size: 297.20906pt x 215.02713pt.
-<C:/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png, id=11
-6, 394.5942pt x 283.2984pt>
+<C:/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png, id=12
+0, 394.5942pt x 283.2984pt>
 File: C:/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png G
 raphic file (type png)
 <use C:/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png>
@@ -1075,20 +1075,29 @@ Package pdftex.def Info: C:/Users/majko/Desktop/weather_prediction/images/perpi
 gnan_spectral.png  used on input line 358.
 (pdftex.def)             Requested size: 297.20906pt x 213.39401pt.
  [11 <C:/Users/majko/Desktop/weather_prediction/images/perpignan_label.png> <C:
-/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png>] (projec
-t_kravec.aux)
+/Users/majko/Desktop/weather_prediction/images/perpignan_spectral.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 369--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
+
+ []
+
+[12] (project_kravec.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 Package rerunfilecheck Info: File `project_kravec.out' has not changed.
-(rerunfilecheck)             Checksum: C865818E9EF71749AA21514A17B1CE06;1080.
+(rerunfilecheck)             Checksum: 119D066FE1B3126F912D36150B2FD7F6;1173.
  ) 
 Here is how much of TeX's memory you used:
- 22656 strings out of 476404
- 430385 string characters out of 2789524
+ 22659 strings out of 476404
+ 430412 string characters out of 2789524
  1943324 words of memory out of 3000000
- 42599 multiletter control sequences out of 15000+600000
+ 42600 multiletter control sequences out of 15000+600000
  520174 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,80p,801b,619s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1104,9 +1113,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1095.pfb><C:/Users/ma
 jko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/
 Users/majko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.
 pfb>
-Output written on project_kravec.pdf (11 pages, 312183 bytes).
+Output written on project_kravec.pdf (12 pages, 314318 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
